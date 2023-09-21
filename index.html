@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: linear-gradient(135deg,orange,lavender,gray);
+            height: 100vh;
+            width: 100%;
+            overflow: hidden;
+        }
+        section{
+            display: flex;
+            position: relative;
+            left: 20px;
+        }
+        nav{
+            position: relative;
+            top: 48px;
+            transform: rotate(-45deg);
+        }
+        
+        div:nth-child(even){
+            background-color: green;
+        }
+        div:nth-child(3n){
+            background-color: darkcyan;
+        }
+
+        div:hover{
+            background: linear-gradient(90deg,yellow,lavender,rgb(219, 106, 151));
+        }
+
+        .box{
+            background-color: blue;
+            width: 140px;
+            height: 140px;
+            border: 10px solid black;
+            transform: rotate(45deg);
+            transition: 2.0s;
+            text-align: center;
+            font-size: x-large;
+            border-radius: 50%;
+        }
+        .box:hover{
+            background-color: red;
+            transform: rotate(1125deg);
+            color: aqua;
+            border-radius: 0%;
+            font-size: 50px;
+            left: 10px;
+            border: 5px solid white;
+        }
+/*       
+        .sec{
+            position: relative;
+            left: 65px;
+            bottom: 50px;
+            justify-content: space-between;
+        }
+        .gif{
+            background-color: lightblue;
+            width: 200px;
+            height: 200px;
+            border: 10px solid black;
+            transform: rotate(45deg);
+            transition: 1.0s;
+            margin: 100px;
+            justify-content: space-between;
+            position: relative;
+            bottom: 480px;
+        }
+        .gif:hover{
+        background-color: red;
+        transform: rotate(360deg);
+    } */
+    </style>
+</head>
+<section>
+    <div class="box"><nav>1</nav></div>
+    <div class="box"><nav>2</nav></div>
+    <div class="box"><nav>3</nav></div>
+    <div class="box"><nav>4</nav></div>
+    <div class="box"><nav>5</nav></div>
+    <div class="box"><nav>6</nav></div>
+    <div class="box"><nav>7</nav></div>
+    <div class="box"><nav>8</nav></div>
+</section>
+    <section>
+    <div class="box"><nav>9</nav></div>
+    <div class="box"><nav>0</nav></div>
+    <div class="box"><nav>a</nav></div>
+    <div class="box"><nav>b</nav></div>
+    <div class="box"><nav>c</nav></div>
+    <div class="box"><nav>d</nav></div>
+    <div class="box"><nav>e</nav></div>
+    <div class="box"><nav>f</nav></div>
+</section>
+
+<section>
+    <div class="box"><nav>g</nav></div>
+    <div class="box"><nav>h</nav></div>
+    <div class="box"><nav>i</nav></div>
+    <div class="box"><nav>j</nav></div>
+    <div class="box"><nav>k</nav></div>
+    <div class="box"><nav>l</nav></div>
+    <div class="box"><nav>m</nav></div>
+    <div class="box"><nav>n</nav></div>
+</section>
+
+<section>
+    <div class="box"><nav>o</nav></div>
+    <div class="box"><nav>p</nav></div>
+    <div class="box"><nav>q</nav></div>
+    <div class="box"><nav>r</nav></div>
+    <div class="box"><nav>s</nav></div>
+    <div class="box"><nav>t</nav></div>
+    <div class="box"><nav>u</nav></div>
+    <div class="box"><nav>v</nav></div>
+</section>
+   
+
+</body>
+</html>
